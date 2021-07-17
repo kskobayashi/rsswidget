@@ -8,10 +8,10 @@ and access this script file.
 
 `~/rsswidget.php?url=https://blogs.sample.com/feed/`
 
-images
+![ss](https://user-images.githubusercontent.com/35519174/126019140-3a0ea598-2834-471e-942a-e3c1d9b09a1f.png)
 
-"mm/dd title"
-- date and title are displayed in three lines.
+"mm/dd title description..."
+- date and title+description will be displayed for the specified number of lines.
 - overflow will be abbreviated with "...".
 
 ## Purpose
