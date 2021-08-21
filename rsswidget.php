@@ -23,7 +23,7 @@
 $parame = $_GET['url'];
 $rss = simplexml_load_file($parame);
 
-$end = 3; //Display n lines.
+$lines = 3; //Display n lines.
 
 $i = 0;
 foreach ($rss->channel->item as $item) {
@@ -42,7 +42,7 @@ foreach ($rss->channel->item as $item) {
         </a>
     </div>
 <?php
-    if ($i === $end) {
+    if ($i === $lines) {
         break;
     }
 }
