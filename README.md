@@ -16,4 +16,4 @@ and access this script file.
 
 ## Purpose
 
-It is useful to embed this in an iframe as widged on a Google site or blog.
+It is useful to embed this in an iframe as widged on Google site or blog.
