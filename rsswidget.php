@@ -20,10 +20,11 @@
 </style>
 
 <?php
-$parame = $_GET['url'];
-$rss = simplexml_load_file($parame);
+$rssurl = $_GET['url'];
+$rss = simplexml_load_file($rssurl);
 
-$lines = 3; //Display n lines.
+$lines = 3; //Default number of lines to display
+$lines = intval($_GET['lines']); //Number of lines to display
 
 $i = 0;
 foreach ($rss->channel->item as $item) {
@@ -46,4 +47,3 @@ foreach ($rss->channel->item as $item) {
         break;
     }
 }
-?>
