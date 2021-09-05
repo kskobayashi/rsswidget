@@ -2,7 +2,7 @@
 A PHP script that simply retrieves a Feed from RSS and displays a few lines. It features a single file to complete.
 
 
-## example
+## Example
 Set the Number of lines to display as a parameter.(Display 3 lines by default)
 Set the feed URL as a parameter.
 and access this script file.
@@ -15,6 +15,9 @@ and access this script file.
 - date and title+description will be displayed for the specified number of lines.
 - overflow will be abbreviated with "...".
 - If you want to change the design, you can directly edit the CSS in the script.
+
+## Demo
+`https://rsswidget.azurewebsites.net/rsswidget.php?lines=7&url=https://azure.microsoft.com/en-us/blog/feed/`
 
 ## Purpose
 
