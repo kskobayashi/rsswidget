@@ -17,7 +17,7 @@ and access this script file.
 - If you want to change the design, you can directly edit the CSS in the script.
 
 ## Demo
-`https://rsswidget.azurewebsites.net/rsswidget.php?lines=7&url=https://azure.microsoft.com/en-us/blog/feed/`
+https://rsswidget.azurewebsites.net/rsswidget.php?lines=7&url=https://azure.microsoft.com/en-us/blog/feed/
 
 ## Purpose
 
